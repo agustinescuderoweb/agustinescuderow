@@ -1,0 +1,33 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    gap: 40px;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+
+.blog h1 {
+    border: 0.2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0px 0px 2px black;
+    background-color:  #1b1b32;
+    opacity: 0.8;
+    text-decoration: underline;
+    color: white;
+}
+
+.boton {
+    border: 0.2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}

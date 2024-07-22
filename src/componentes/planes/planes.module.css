@@ -1,0 +1,160 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 150px;
+    background-color: #424242;
+    height: 250px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.imag {
+    width: 500px;
+}
+
+.container h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    gap: 200px;
+    margin-top: 200px;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    box-shadow: 0px 0px 5px black;
+}
+
+.landing h1 {
+    background-color: orange;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+}
+
+.landing button {
+    padding: 20px;
+    background-color: orange;
+    width: 300px;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.web {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    box-shadow: 0px 0px 5px black;
+  }
+
+.web h1 {
+    background-color: yellowgreen;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+
+.web button {
+    padding: 20px;
+    background-color: yellowgreen;
+    box-shadow: 0px 0px 5px black;
+    width: 300px;
+}
+
+
+.sitio {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    box-shadow: 0px 0px 5px black;
+  }
+
+
+.sitio h1 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.sitio button {
+    padding: 20px;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 5px black;
+    width: 300px;
+}
+
+.lista {
+    list-style-type: none; /* Elimina los estilos de lista predeterminados */
+    padding: 0; /* Elimina el padding predeterminado de la lista */
+    width: 100%; /* Ajusta el ancho de la lista al 100% del contenedor */
+  }
+  
+  .lista li {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el ícono y el texto */
+    align-items: center; /* Alinea verticalmente los elementos */
+    padding: 12px 0; /* Espaciado entre cada elemento de lista */
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row; 
+    padding: 14px 30px;
+  }
+  
+  .check {
+    width: 24px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: 24px; /* Ajusta la altura de la imagen según sea necesario */
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+  }
+  
+  @media  screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 400px;
+        height: 600px;
+        width: 100%
+    }
+
+    .container h1 {
+        width: 500px;
+        padding: 10px;
+    }
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+
+    }
+  }
+ 

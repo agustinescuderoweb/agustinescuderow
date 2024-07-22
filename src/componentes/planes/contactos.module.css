@@ -1,0 +1,30 @@
+.contactos {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.contactos h1 {
+    font-size: 50px;
+}
+
+.contactos h2 {
+    font-size: 30px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.icons {
+    width: 25px;
+    margin: 10px;
+}

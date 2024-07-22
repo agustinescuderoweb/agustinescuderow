@@ -1,0 +1,33 @@
+.quiensoy {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  #1b1b32;
+    color: white;
+    padding: 20px;
+}
+
+.quiensoy h1 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.quiensoy p {
+    width: 600px;
+    margin: 15px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 760px) {
+
+    .quiensoy p {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+}
