@@ -8,8 +8,9 @@ const Form  = () => {
   const [message, setMessage] = useState('')
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const data = new FormData(e.currentTarget)
-    const response = await fetch(e.target.action, {
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const response = await fetch(form.action,{
       method: 'POST',
       body: data,
       headers: {
