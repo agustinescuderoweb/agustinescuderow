@@ -12,12 +12,12 @@ function planes() {
       <div className={styles.estilo}>
         <h1>Desarrolla tu web con un estilo moderno</h1>
         <button></button>
-        <Image className={styles.note} src={note}></Image>
+        <Image className={styles.note} src={note} alt="note"></Image>
       </div>
       <div className={styles.contenido}>
         <div className={styles.cardone}>
           <div className={styles.content}>
-            <Image className={styles.svg} src={bull}></Image>
+            <Image className={styles.svg} src={bull} alt="bull"></Image>
             <h1 className={styles.titulo}>Diseños Web Personalizados</h1>
             <p className={styles.parrafos}>Diseños de web que destacan la identidad de tu marca</p>
             <button className={styles.mas}>Más Info</button>
@@ -25,7 +25,7 @@ function planes() {
         </div>
         <div className={styles.cardtwo}>
           <div className={styles.content}>
-            <Image className={styles.svg} src={rain}></Image>
+            <Image className={styles.svg} src={rain} alt="rain"></Image>
             <h1 className={styles.titulo}>Responsive <br></br> Desing</h1>
             <p className={styles.parrafos}>Sitios Web con adaptabilidad a distintos dispositivos</p>
             <button className={styles.mas}>Más Info</button>
@@ -33,7 +33,7 @@ function planes() {
         </div>
         <div className={styles.cardthree}>
           <div className={styles.content}>
-            <Image className={styles.svg} src={book}></Image>
+            <Image className={styles.svg} src={book} alt="book"></Image>
             <h1 className={styles.titulo}>Marketing Digital y SEO</h1>
             <p className={styles.parrafos}>Diseños de web con atractivo e interes comercial</p>
             <button className={styles.mas}>Más Info</button>
