@@ -7,7 +7,7 @@ import Link from 'next/link'
 function hero() {
   return (
     <div className={styles.container}>
-        <div className={styles.img}><Image src={imagen}></Image></div>
+        <div className={styles.img}><Image src={imagen} alt="imagen"></Image></div>
     </div>
   )
 }
