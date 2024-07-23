@@ -5,7 +5,7 @@ import maquillaje from '../../../public/maquillaje.jpg';
 import montañas from '../../../public/montaña.jpg';
 import antenas from '../../../public/antenas.jpg';
 import checkin from '../../../public/check.png';
-import styles from '@/Componentes/planes/carousel.module.css'
+import styles from '@/componentes/planes/carousel.module.css'
 import Link from 'next/link';
 
 const Carousel = () => {
