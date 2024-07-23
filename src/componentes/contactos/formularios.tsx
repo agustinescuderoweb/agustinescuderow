@@ -3,6 +3,9 @@ import React from 'react'
 import styles from '@/componentes/contactos/formulario.module.css'
 import { useState } from 'react'
 
+interface ErrorResponse {
+  errors: { message: string }[];
+}
 
 const Form  = () => {
   const [message, setMessage] = useState('')
