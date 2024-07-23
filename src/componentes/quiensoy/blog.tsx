@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/Componentes/quiensoy/blog.module.css'
+import styles from '@/componentes/quiensoy/blog.module.css'
 
 function blog() {
   return (
