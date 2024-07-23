@@ -3,7 +3,7 @@ import Image from 'next/image'
 import bull from "../../../public/icon/bullseye.svg"
 import rain from "../../../public/icon/rainbow.svg"
 import book from "../../../public/icon/bookmark-check.svg"
-import styles from "@/Componentes/planes/programas.module.css"
+import styles from "@/componentes/planes/programas.module.css"
 import note from "../../../public/note.png"
 
 function planes() {
