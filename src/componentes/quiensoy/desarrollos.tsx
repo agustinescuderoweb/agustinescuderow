@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/Componentes/quiensoy/desarrollos.module.css'
+import styles from '@/componentes/quiensoy/desarrollos.module.css'
 import pintura from '../../../public/pintura.jpg'
 import maquillaje from '../../../public/maquillaje.jpg'
 import antenas from '../../../public/antenas.jpg'
