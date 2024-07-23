@@ -1,7 +1,7 @@
 import React from 'react'
 import desarrollos from '../../../public/desarrolloweb.jpg'
 import git from '../../../public/gitimage.jpg'
-import styles from '@/Componentes/quiensoy/github.module.css'
+import styles from '@/componentes/quiensoy/github.module.css'
 import Image from 'next/image'
 
 function github() {
