@@ -9,7 +9,7 @@ function github() {
     <div className={styles.contenedor}>
         <div className={styles.contenido}><h1>Mis Proyectos Recientes...</h1><h2>Estos son algunos proyectos que he creado recientemente..</h2><h3>Si sos desarrollador podes visitar mis códigos..</h3></div>
         <div className={styles.imagenes}><Image className={styles.desarrollos} src={desarrollos} alt="desarrollos"></Image><Image className={styles.git} src={git} alt="git"></Image></div>
-        <div className={styles.masproyectos}><div><h1>Ver más Proyectos</h1></div></div>
+        <a href="https://github.com/agustinescuderoweb"><div className={styles.masproyectos}><div><h1>Ver más Proyectos</h1></div></div></a>
     </div>
   )
 }

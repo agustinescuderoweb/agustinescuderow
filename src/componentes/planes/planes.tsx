@@ -57,7 +57,7 @@ function planes() {
          <span>Múltiples páginas</span>
         </div>
         <div className={styles.boton}>
-        <a href='https://wa.link/elp2e3'><button>+ Más Info</button>/</a>
+        <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
         </div>
         </div>
 

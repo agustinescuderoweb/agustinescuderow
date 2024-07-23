@@ -57,10 +57,12 @@
     .contenedor {
         display: flex;
         flex-direction: column;
+        width: 100%;
 
     }
 
     .correo {
+        width: 100%;
         padding: 0px 20px;
     }
 }
