@@ -8,8 +8,8 @@ import mail from '../../../public/icon/mail.svg';
 function redes() {
   return (
     <div><div className={styles.icon}>
-    <a href='https://wa.link/elp2e3'><Image className={styles.icons} src={whatsaap}></Image></a>
-    <a href='https://www.instagram.com/agustinescuderoweb/'><Image className={styles.icons} src={instagram}></Image></a>
+    <a href='https://wa.link/elp2e3'><Image className={styles.icons} src={whatsaap} alt="WhatsApp"></Image></a>
+    <a href='https://www.instagram.com/agustinescuderoweb/'><Image className={styles.icons} src={instagram} alt="Instagram"></Image></a>
 </div></div>
   )
 }
