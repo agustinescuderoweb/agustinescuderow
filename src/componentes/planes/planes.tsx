@@ -9,7 +9,7 @@ function planes() {
   return (
     <div>
     <div className={styles.container}>
-      <Image className={styles.imag} src={fle}></Image>
+      <Image className={styles.imag} src={fle} alt="fle"></Image>
       <h1>Elige el Servicio que más se adapté a tu modelo de negocio</h1>
     </div>
     <div className={styles.servicios}>
@@ -18,42 +18,42 @@ function planes() {
           
         
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check} alt="check" />
         <span>Formulario de Contacto</span>
        </div>
     
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check} alt="check" />
         <span>Responsive Design</span>
       </div>
   
   
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check} alt="check" />
         <span>Dominio Personalizado</span>
       </div>
 
    
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check} alt="check" />
         <span>Contactos Redes Sociales</span>
       </div>
   
   
       <div className={styles.item}>
-        <Image className={styles.check} src={x} />
+        <Image className={styles.check} src={x} alt="x" />
         <span>Apartados y secciones</span>
       </div>
    
    
        <div className={styles.item}>
-        <Image className={styles.check} src={x} />
+        <Image className={styles.check} src={x}  alt="x" />
         <span>Whatsapp Personalizado</span>
        </div>
         
    
         <div className={styles.item}>
-         <Image className={styles.check} src={x} />
+         <Image className={styles.check} src={x}  alt="x" />
          <span>Múltiples páginas</span>
         </div>
         <div className={styles.boton}>
@@ -65,42 +65,42 @@ function planes() {
             <h1>Página Web</h1>
              
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check}  alt="check" />
         <span>Formulario de Contacto</span>
        </div>
     
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check}  alt="check" />
         <span>Responsive Design</span>
       </div>
   
   
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check}  alt="check" />
         <span>Dominio Personalizado</span>
       </div>
 
    
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check} alt="check" />
         <span>Contactos Redes Sociales</span>
       </div>
   
   
       <div className={styles.item}>
-        <Image className={styles.check} src={check} />
+        <Image className={styles.check} src={check}  alt="check" />
         <span>Apartados y secciones</span>
       </div>
    
    
        <div className={styles.item}>
-        <Image className={styles.check} src={x} />
+        <Image className={styles.check} src={x} alt="x" />
         <span>Whatsapp Personalizado</span>
        </div>
         
    
         <div className={styles.item}>
-         <Image className={styles.check} src={x} />
+         <Image className={styles.check} src={x} alt="x" />
          <span>Múltiples páginas</span>
         </div>
           <div className={styles.boton}>
@@ -113,42 +113,42 @@ function planes() {
            
                
         <div className={styles.item}>
-          <Image className={styles.check} src={check} />
+          <Image className={styles.check} src={check} alt="check" />
           <span>Formulario de Contacto</span>
          </div>
     
          <div className={styles.item}>
-           <Image className={styles.check} src={check} />
+           <Image className={styles.check} src={check} alt="check" />
            <span>Responsive Design</span>
          </div>
   
   
         <div className={styles.item}>
-          <Image className={styles.check} src={check} />
+          <Image className={styles.check} src={check} alt="check" />
           <span>Dominio Personalizado</span>
         </div>
 
    
         <div className={styles.item}>
-          <Image className={styles.check} src={check} />
+          <Image className={styles.check} src={check} alt="check" />
           <span>Contactos Redes Sociales</span>
         </div>
   
   
         <div className={styles.item}>
-          <Image className={styles.check} src={check} />
+          <Image className={styles.check} src={check} alt="check" />
           <span>Apartados y secciones</span>
         </div>
    
    
         <div className={styles.item}>
-         <Image className={styles.check} src={check} />
+         <Image className={styles.check} src={check} alt="check" />
          <span>Whatsapp Personalizado</span>
         </div>
         
    
         <div className={styles.item}>
-         <Image className={styles.check} src={check} />
+         <Image className={styles.check} src={check} alt="check" />
          <span>Múltiples páginas</span>
         </div>
         <div className={styles.boton}>
