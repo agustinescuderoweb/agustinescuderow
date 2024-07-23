@@ -3,7 +3,7 @@ import Image from 'next/image'
 import whatsaap from '../../../public/icon/whatsaap.svg'
 import instagram from '../../../public/icon/instagram.svg'
 import mail from '../../../public/icon/mail.svg'
-import styles from '@/Componentes/planes/contactos.module.css'
+import styles from '@/componentes/planes/contactos.module.css'
 
 
 
