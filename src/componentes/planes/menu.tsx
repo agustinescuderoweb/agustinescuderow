@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import agus from '../../../public/logo.png'
-import styles from '@/Componentes/planes/menu.module.css'
+import styles from '@/componentes/planes/menu.module.css'
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
