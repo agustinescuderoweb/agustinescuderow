@@ -57,7 +57,7 @@ function planes() {
          <span>Múltiples páginas</span>
         </div>
         <div className={styles.boton}>
-        <button>+ Más Info</button>
+        <a href='https://wa.link/elp2e3'><button>+ Más Info</button>/</a>
         </div>
         </div>
 
@@ -104,7 +104,7 @@ function planes() {
          <span>Múltiples páginas</span>
         </div>
           <div className={styles.boton}>
-          <button>+ Más Info</button>
+          <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
           </div>
         </div>
 
@@ -152,7 +152,7 @@ function planes() {
          <span>Múltiples páginas</span>
         </div>
         <div className={styles.boton}>
-        <button>+ Más Info</button>
+        <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
         </div>
         </div>
         </div>
