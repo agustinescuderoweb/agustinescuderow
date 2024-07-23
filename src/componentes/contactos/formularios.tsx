@@ -17,11 +17,10 @@ const Form  = () => {
         Accept: 'Aplication/json'
       }
     })
-  const result = await response.json()
-  if (!response.ok) {
-    setMessage(result.errors.map(error => error.message).
-    join(', '))
-    return false
+    const result: ErrorResponse = await response.json();
+    if (!response.ok) {
+      setMessage(result.errors.map((error) => error.message).join(', '));
+      return false;
   }
   setMessage('Se ha enviado el correo satisfactoriamente')
   }
