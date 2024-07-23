@@ -1,7 +1,7 @@
 import React from 'react'
 import fle from '../../../public/flechazo.png'
 import Image from 'next/image'
-import styles from '@/Componentes/planes/planes.module.css'
+import styles from '@/componentes/planes/planes.module.css'
 import x from '../../../public/icon/x-circle-fill.svg'
 import check from '../../../public/icon/check-circle-fill.svg'
 
