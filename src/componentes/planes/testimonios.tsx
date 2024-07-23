@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import styles from '@/Componentes/planes/testimonios.module.css'
+import styles from '@/componentes/planes/testimonios.module.css'
 import camila from '../../../public/icon/camilaimg.jpg'
 import monica from '../../../public/icon/monicaimg.jpg'
 import Image from 'next/image';
