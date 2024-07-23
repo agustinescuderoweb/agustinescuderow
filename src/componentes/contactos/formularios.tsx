@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Form  = () => {
   const [message, setMessage] = useState('')
-  const handleSubmit = async (e: FormEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     const data = new FormData(e.target)
     const response = await fetch(e.target.action, {
