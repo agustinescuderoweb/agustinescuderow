@@ -1,0 +1,22 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.contenido h1 {
+    font-size: 30px;
+    margin: 30px;
+    font-weight: 500;
+}
+
+.contenido h2 {
+    font-size: 25px;
+}
+
+.contenido p {
+    width: 80%;
+    margin: 50px 20px;
+}

@@ -1,0 +1,39 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.contenido h1 {
+    font-size: 45px;
+    margin: 30px;
+    font-weight: 500;
+}
+
+.contenido h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.contenido h3 {
+    font-size: 35px;
+    margin: 30px;
+    font-weight: 300px;
+}
+
+.contenido h4 {
+    font-size: 20px;
+    margin: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.contenido p {
+    width: 80%;
+    margin: 50px 20px;
+    font-size: 20px;
+}
