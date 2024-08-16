@@ -7,7 +7,7 @@ function quiensoy() {
   return (
     <div className={styles.quien}>
         <div className={styles.imagen}>
-          <Image src={agustin} className={styles.agustin} ></Image>
+          <Image src={agustin} className={styles.agustin} alt='agustin' ></Image>
         </div>
         <div className={styles.quiensoy}>
         <h1>Agustín Escudero Web</h1>
