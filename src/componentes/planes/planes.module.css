@@ -94,7 +94,7 @@
 
 
 .sitio h1 {
-    background-color: blueviolet;
+    background-color: 	#87CEEB;
     width: 300px;
     height: 70px;
     display: flex;
@@ -107,7 +107,35 @@
 
 .sitio button {
     padding: 20px;
-    background-color: blueviolet;
+    background-color:  	#87CEEB;
+    box-shadow: 0px 0px 5px black;
+    width: 300px;
+}
+
+
+.ecommerce {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    box-shadow: 0px 0px 5px black;
+  }
+
+
+.ecommerce h1 {
+    background-color:  #ee82ee;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.ecommerce button {
+    padding: 20px;
+    background-color:  #ee82ee;
     box-shadow: 0px 0px 5px black;
     width: 300px;
 }

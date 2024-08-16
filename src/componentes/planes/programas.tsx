@@ -10,9 +10,14 @@ function planes() {
   return (
     <div className={styles.programas}>
       <div className={styles.estilo}>
+        <div className={styles.web}>
         <h1>Desarrolla tu web con un estilo moderno</h1>
-        <button></button>
+        <h2>Muestra tus proyectos, tus habilidades y productos</h2>
+        <a href='https://wa.link/elp2e3'><button>Empieza ahora!</button></a>
+        </div>
+        <div className={styles.imag}>
         <Image className={styles.note} src={note} alt="note"></Image>
+        </div>
       </div>
       <div className={styles.contenido}>
         <div className={styles.cardone}>

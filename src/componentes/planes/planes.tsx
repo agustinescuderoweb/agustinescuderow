@@ -56,6 +56,18 @@ function planes() {
          <Image className={styles.check} src={x}  alt="x" />
          <span>Múltiples páginas</span>
         </div>
+
+        <div className={styles.item}>
+         <Image className={styles.check} src={x}  alt="x" />
+         <span>Carrito de Compra</span>
+        </div>
+
+        <div className={styles.item}>
+         <Image className={styles.check} src={x}  alt="x" />
+         <span>Medio de Pago</span>
+        </div>
+
+
         <div className={styles.boton}>
         <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
         </div>
@@ -103,10 +115,24 @@ function planes() {
          <Image className={styles.check} src={x} alt="x" />
          <span>Múltiples páginas</span>
         </div>
+
+        
+        <div className={styles.item}>
+         <Image className={styles.check} src={x}  alt="x" />
+         <span>Carrito de Compra</span>
+        </div>
+
+        <div className={styles.item}>
+         <Image className={styles.check} src={x}  alt="x" />
+         <span>Medio de Pago</span>
+        </div>
+
           <div className={styles.boton}>
           <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
           </div>
         </div>
+
+
 
         <div className={styles.sitio}>
             <h1>Sitio Web</h1>
@@ -151,12 +177,84 @@ function planes() {
          <Image className={styles.check} src={check} alt="check" />
          <span>Múltiples páginas</span>
         </div>
+
+        
+        <div className={styles.item}>
+         <Image className={styles.check} src={x}  alt="x" />
+         <span>Carrito de Compra</span>
+        </div>
+
+        <div className={styles.item}>
+         <Image className={styles.check} src={x}  alt="x" />
+         <span>Medio de Pago</span>
+        </div>
+
+        <div className={styles.boton}>
+        <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
+        </div>
+        </div>
+        
+        <div className={styles.ecommerce}>
+            <h1>E-Commerce/Comercio Electrónico</h1>
+           
+               
+        <div className={styles.item}>
+          <Image className={styles.check} src={check} alt="check" />
+          <span>Formulario de Contacto</span>
+         </div>
+    
+         <div className={styles.item}>
+           <Image className={styles.check} src={check} alt="check" />
+           <span>Responsive Design</span>
+         </div>
+  
+  
+        <div className={styles.item}>
+          <Image className={styles.check} src={check} alt="check" />
+          <span>Dominio Personalizado</span>
+        </div>
+
+   
+        <div className={styles.item}>
+          <Image className={styles.check} src={check} alt="check" />
+          <span>Contactos Redes Sociales</span>
+        </div>
+  
+  
+        <div className={styles.item}>
+          <Image className={styles.check} src={check} alt="check" />
+          <span>Apartados y secciones</span>
+        </div>
+   
+   
+        <div className={styles.item}>
+         <Image className={styles.check} src={check} alt="check" />
+         <span>Whatsapp Personalizado</span>
+        </div>
+        
+   
+        <div className={styles.item}>
+         <Image className={styles.check} src={check} alt="check" />
+         <span>Múltiples páginas</span>
+        </div>
+
+        
+        <div className={styles.item}>
+         <Image className={styles.check} src={check} alt="check" />
+         <span>Carrito de Compra</span>
+        </div>
+
+        <div className={styles.item}>
+         <Image className={styles.check} src={check} alt="check"/>
+         <span>Medio de Pago</span>
+        </div>
+
         <div className={styles.boton}>
         <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
         </div>
         </div>
         </div>
-      </div>
+        </div>
   )
 }
 

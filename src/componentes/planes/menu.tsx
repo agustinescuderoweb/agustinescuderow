@@ -27,8 +27,8 @@ function Menu() {
         </button>
       </div>
       <div className={`${styles.items} ${isOpen ? styles.show : ''}`}>
-        <Link href="/">¿Quién Soy?</Link>
-        <Link href="/planes">Planes</Link>
+        <Link href="/">Inicio</Link>
+        <Link href="/quiensoy">¿Quién Soy?</Link>
         <Link href="/blog">Blog</Link>
         <Link href="/contactos">Contactos</Link>
       </div>

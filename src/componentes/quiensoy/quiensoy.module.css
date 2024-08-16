@@ -1,4 +1,5 @@
-.quiensoy {
+.quien {
+    width: 100%;
     width: 100%;
     height: auto;
     display: flex;
@@ -9,7 +10,16 @@
     text-align: center;
     background-color:  #1b1b32;
     color: white;
-    padding: 20px;
+    padding: 100px 20px;
+    gap: 55px;
+}
+
+.quiensoy {
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .quiensoy h1 {
@@ -21,6 +31,17 @@
     margin: 15px;
     font-size: 22px;
 }
+
+.imagen {
+    width: 200px;
+
+}
+
+.agustin {
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px black;
+}
+
 
 @media screen and (max-width: 760px) {
 
