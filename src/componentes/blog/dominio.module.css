@@ -1,0 +1,32 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor p {
+    text-align: start;
+    margin: 10px 50px;
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.dominio {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.hosting {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.resumen {
+    padding-top: 40px;
+}

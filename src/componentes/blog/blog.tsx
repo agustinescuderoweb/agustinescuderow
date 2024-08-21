@@ -25,9 +25,11 @@ const Blog = () => {
           </a>
         </div>
         <div className={style.contenidos}>
+          <a href='../../blog/dominio'>
           <Image className={style.dom} src={dom} alt="dom" />
           <h1>¿Qué es un Dominio y un Hosting?</h1>
           <h2>Base de datos | Lectura de 5 min</h2>
+          </a>
         </div>
       </div>
     </div>
