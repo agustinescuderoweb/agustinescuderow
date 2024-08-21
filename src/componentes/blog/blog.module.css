@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 50px;
     margin-bottom: 100px;
 
@@ -19,7 +20,7 @@
 .cards {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
 }
 
 .contenidos {

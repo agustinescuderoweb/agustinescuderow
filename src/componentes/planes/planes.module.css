@@ -27,7 +27,7 @@
     align-items: center;
     text-align: center;
     margin: 100px;
-    gap: 200px;
+    gap: 30px;
     margin-top: 200px;
 }
 
@@ -165,6 +165,31 @@
     margin-right: 10px; /* Espacio entre el ícono y el texto */
   }
   
+ @media screen and (max-width: 1200px) {
+
+    .servicios {
+        width: 90%;
+        gap: 1px;
+    }
+
+    .landing h1 button{
+        width: 20%;
+    }
+
+    .web h1 button  {
+        width: 20%;
+    }
+
+    .sitio  h1 button{
+        width: 20%;
+    }
+
+    .ecommerce h1 button{
+        width: 20%;
+    }
+ }
+
+
   @media  screen and (max-width: 768px) {
     .container {
         display: flex;

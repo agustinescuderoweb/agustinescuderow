@@ -12,7 +12,7 @@ function planes() {
       <div className={styles.estilo}>
         <div className={styles.web}>
         <h1>Desarrolla tu web con un estilo moderno</h1>
-        <h2>Muestra tus proyectos, tus habilidades y productos</h2>
+        <h2>Muestra tus proyectos, tus habilidades y productos.</h2>
         <a href='https://wa.link/elp2e3'><button>Empieza ahora!</button></a>
         </div>
         <div className={styles.imag}>
