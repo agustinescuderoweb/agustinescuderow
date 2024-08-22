@@ -92,15 +92,27 @@
     justify-content: center;
   }
 
+  .carousel {
+    justify-content: center;
+    align-items: center;
+  }
+
   .check {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     height: 600px;
+    gap: 20px;
   }
 
   .checkin {
     width: 200px;
+  }
+
+  .navButton {
+    font-size: 40px;
+    margin: 0px 10px;
+    margin-bottom: 40px;
   }
 }

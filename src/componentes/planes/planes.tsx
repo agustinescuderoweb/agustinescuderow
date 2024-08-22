@@ -7,7 +7,7 @@ import check from '../../../public/icon/check-circle-fill.svg'
 
 function planes() {
   return (
-    <div>
+    <div className={styles.contenedor}>
     <div className={styles.container}>
       <Image className={styles.imag} src={fle} alt="fle"></Image>
       <h1>Elige el Servicio que más se adapté a tu modelo de negocio</h1>

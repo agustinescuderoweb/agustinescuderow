@@ -4,10 +4,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 150px;
+    padding: 50px 150px;
     background-color: #424242;
     height: 250px;
-    margin-top: 50px;
     box-shadow: 0px 0px 10px black;
 }
 
@@ -26,9 +25,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 100px;
     gap: 30px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .landing {
@@ -167,6 +165,10 @@
   
  @media screen and (max-width: 1200px) {
 
+    .container {
+        padding: 50px;
+    }
+
     .servicios {
         width: 90%;
         gap: 1px;
@@ -191,22 +193,41 @@
 
 
   @media  screen and (max-width: 768px) {
+
+    .contenedor {
+        margin-top: 200px;
+    }
+
+
     .container {
         display: flex;
         flex-direction: column;
-        margin-top: 400px;
-        height: 600px;
-        width: 100%
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        height: 700px;
+        width: 100%;
+    }
+
+    .imag {
+        margin-top: 200px;
+        width: 50%;
     }
 
     .container h1 {
         width: 400px;
+        margin-top: 50px;
         padding: 10px;
     }
 
     .servicios {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+        gap: 20px;
 
     }
   }
