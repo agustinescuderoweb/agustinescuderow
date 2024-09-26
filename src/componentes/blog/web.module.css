@@ -1,0 +1,23 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.titulo {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.subtitulo {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.parrafo {
+    font-size: 20px;
+    margin: 30px;
+}

@@ -17,9 +17,10 @@
 
 }
 
-.cards {
+.rowone {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
     gap: 50px;
 }
 
@@ -48,26 +49,13 @@
 }
 
 
-.web {
+.caja {
     width: 400px;
     height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.code {
-    width: 400px;
-    height: 200px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.dom {
-    width: 400px;
-    height: 200px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
 
 @media screen and (max-width: 768px) {
     .contenedor {
