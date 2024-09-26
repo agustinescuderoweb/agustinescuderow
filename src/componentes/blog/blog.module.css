@@ -67,11 +67,12 @@
     }
 
     .titulo {
-        margin-bottom: 120px;
-        font-size: 35px;
+        margin: 10%;
+        font-size: 30px;
+        padding: 5%;
     }
 
-    .cards {
+    .rowone {
         display: flex;
         flex-direction: column;
     }

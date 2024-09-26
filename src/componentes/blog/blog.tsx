@@ -38,7 +38,7 @@ const Blog = () => {
           <a href='../../blog/infoweb'>
           <Image className={style.caja} src={sitio} alt="dom" />
           <h1>Historia y Futuro de la Web</h1>
-          <h2>Historia | Lectura de 5 min</h2>
+          <h2>Historia | Lectura de 2 min</h2>
           </a>
         </div>
       </div>
