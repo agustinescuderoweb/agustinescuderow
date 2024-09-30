@@ -45,7 +45,7 @@ const Blog = () => {
       <div className={style.contenidos}>
           <a href='../../blog/webtres'>
           <Image className={style.caja} src={webtres} alt="dom" />
-          <h1>¿Qué es la Web 3.0</h1>
+          <h1>¿Qué és la Web 3.0?</h1>
           <h2>Información | Lectura de 3 min</h2>
           </a>
       </div>
