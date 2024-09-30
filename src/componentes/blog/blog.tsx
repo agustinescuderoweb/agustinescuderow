@@ -6,6 +6,7 @@ import web from '../../../public/ventajas.jpg';
 import code from '../../../public/code.jpg';
 import dom from '../../../public/dom.jpg';
 import sitio from '../../../public/sitio.jpeg'
+import webtres from '../../../public/webtres.jpeg'
 import style from '../blog/blog.module.css';
 
 const Blog = () => {
@@ -41,6 +42,13 @@ const Blog = () => {
           <h2>Historia | Lectura de 2 min</h2>
           </a>
         </div>
+      <div className={style.contenidos}>
+          <a href='../../blog/webtres'>
+          <Image className={style.caja} src={webtres} alt="dom" />
+          <h1>¿Qué es la Web 3.0</h1>
+          <h2>Información | Lectura de 3 min</h2>
+          </a>
+      </div>
       </div>
     </div>
   );
