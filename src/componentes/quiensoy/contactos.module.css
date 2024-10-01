@@ -24,12 +24,15 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
+    color: white;
 }
 
 .icons {
     width: 25px;
     margin: 10px;
+    color: white;
 }
+
 
 @media screen and (max-width: 768px) {
     .contactos{
