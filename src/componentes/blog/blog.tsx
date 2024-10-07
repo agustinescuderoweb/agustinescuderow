@@ -7,6 +7,7 @@ import code from '../../../public/code.jpg';
 import dom from '../../../public/dom.jpg';
 import sitio from '../../../public/sitio.jpeg'
 import webtres from '../../../public/webtres.jpeg'
+import herramientas from '../../../public/herramientas.jpg'
 import style from '../blog/blog.module.css';
 
 const Blog = () => {
@@ -47,6 +48,13 @@ const Blog = () => {
           <Image className={style.caja} src={webtres} alt="dom" />
           <h1>¿Qué és la Web 3.0?</h1>
           <h2>Información | Lectura de 3 min</h2>
+          </a>
+      </div>
+      <div className={style.contenidos}>
+          <a href='../../blog/herramientas'>
+          <Image className={style.caja} src={herramientas} alt="dom" />
+          <h1>3 Herramientas para desarrollar tu web</h1>
+          <h2>Herramientas | Lectura de 3 min</h2>
           </a>
       </div>
       </div>
