@@ -2,8 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import whatsaap from '../../../public/icon/whatsaaps.svg'
 import instagram from '../../../public/icon/instagrams.svg'
-import mail from '../../../public/icon/mails.svg'
-import youtube from '../../../public/icon/youtube.svg'
+import youtube from '../../../public/icon/youtubes.svg'
 import styles from '@/componentes/quiensoy/contactos.module.css'
 
 
