@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+         <link rel="icon" href="/favicon.ico" />
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-81Q9W2LL4J"></Script>
         <Script id="google-analytics"> {`
        
