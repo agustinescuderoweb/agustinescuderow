@@ -10,13 +10,17 @@
   },
   "dependencies": {
     "@getbrevo/brevo": "^2.2.0",
+    "aos": "^2.3.4",
     "flowbite": "^2.3.0",
+    "framer-motion": "^11.11.8",
+    "lottie-react": "^2.4.0",
     "next": "14.2.3",
     "nextjs-google-analytics": "^2.3.7",
     "nodemailer": "^6.9.14",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
+    "react-reveal": "^1.2.2",
     "resend": "^3.4.0",
     "sib-api-v3-sdk": "^8.5.0",
     "swiper": "^11.1.4"

@@ -11,12 +11,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color:  #424242;
-  box-shadow: 0px 0px 10px black;
   width: 100%;
   height: 250px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   gap: 100px;
 }
 
@@ -26,9 +24,12 @@
 }
 
 .span {
-  padding: 40px;
-  font-size: 60px;
+  padding: 10px 20px;
+  font-size: 80px;
   color: white;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  box-shadow: 0px 0px 10px white;
 }
 
 .carousel {
@@ -40,7 +41,8 @@
 }
 
 .carouselimag {
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 20px white;
+  border-radius: 20px;
 }
 
 .imagText {

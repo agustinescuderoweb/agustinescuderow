@@ -41,8 +41,7 @@ const Carousel = () => {
   return (
     <div className={styles.caroul}>
       <div className={styles.check}>
-        <span className={styles.span}>Algunos desarrollos</span>
-        <Image className={styles.checkin} src={checkin} alt="check"></Image>
+        <span className={styles.span}>Proyectos Realizados</span>
       </div>
     <div className={styles.carousel}>
       <button className={styles.navButton} onClick={handlePrevClick}>‹</button>

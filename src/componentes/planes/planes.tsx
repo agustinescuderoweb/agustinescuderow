@@ -1,20 +1,41 @@
+'use client'
 import React from 'react'
+import { useEffect, useRef } from "react";
 import fle from '../../../public/flechazo.png'
 import Image from 'next/image'
 import styles from '@/componentes/planes/planes.module.css'
 import x from '../../../public/icon/x-circle-fill.svg'
 import check from '../../../public/icon/check-circle-fill.svg'
+import { motion, useAnimation, useInView } from "framer-motion";
 
 function planes() {
+  const controls = useAnimation(); 
+  const ref = useRef(null); 
+  const isInView = useInView(ref, { threshold: 0.3 }); 
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start("visible"); 
+    }
+  }, [isInView, controls]);
+
   return (
     <div className={styles.contenedor}>
     <div className={styles.container}>
-      <Image className={styles.imag} src={fle} alt="fle"></Image>
-      <h1>Elige el Servicio que más se adapté a tu modelo de negocio</h1>
+      <h1>Elige el Servicio que <span className={styles.marcado}>más se adapté a tu modelo de negocio</span></h1>
     </div>
     <div className={styles.servicios}>
 
-      <div className={styles.web}>
+      <motion.div className={styles.web}
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={{
+          hidden: { x: -300, opacity: 0 }, // Estado inicial: fuera de vista
+          visible: { x: 0, opacity: 1 }, // Estado final: visible y centrado
+        }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
             <h1>Página Web</h1>
              
       <div className={styles.item}>
@@ -71,11 +92,19 @@ function planes() {
           <div className={styles.boton}>
           <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
           </div>
-        </div>
+        </motion.div>
 
 
 
-        <div className={styles.sitio}>
+        <motion.div className={styles.sitio}
+         ref={ref}
+         initial="hidden"
+         animate={controls}
+         variants={{
+           hidden: { y: -300, opacity: 0 }, // Estado inicial: fuera de vista
+           visible: { y: 0, opacity: 1 }, // Estado final: visible y centrado
+         }}
+         transition={{ duration: 0.8, ease: "easeOut" }}> 
             <h1>Sitio Web</h1>
            
                
@@ -133,9 +162,17 @@ function planes() {
         <div className={styles.boton}>
         <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
         </div>
-        </div>
+        </motion.div>
         
-        <div className={styles.ecommerce}>
+        <motion.div className={styles.ecommerce}
+         ref={ref}
+         initial="hidden"
+         animate={controls}
+         variants={{
+           hidden: { x: +300, opacity: 0 }, // Estado inicial: fuera de vista
+           visible: { x: 0, opacity: 1 }, // Estado final: visible y centrado
+         }}
+         transition={{ duration: 0.8, ease: "easeOut" }}> 
             <h1>E-Commerce/Comercio Electrónico</h1>
            
                
@@ -193,7 +230,7 @@ function planes() {
         <div className={styles.boton}>
         <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
         </div>
-        </div>
+        </motion.div>
         </div>
         </div>
   )

@@ -5,9 +5,8 @@
     align-items: center;
     text-align: center;
     padding: 50px 150px;
-    background-color: #424242;
     height: 250px;
-    box-shadow: 0px 0px 10px black;
+    margin-top: 200px;
 }
 
 .imag {
@@ -15,8 +14,15 @@
 }
 
 .container h1 {
-    font-size: 35px;
+    font-size: 55px;
     color: white;
+}
+
+.marcado {
+    background-color:  white;
+    color:  black;
+    padding: 10px;
+    box-shadow: 0px 0px 10px white;
 }
 
 .servicios {
@@ -25,35 +31,45 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 150px;
-    margin-top: 150px;
+    gap: 250px;
+    margin-top: 200px;
 }
 
 .web {
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: flex-start; /* Alinea los elementos a la izquierda */
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 20px;
+    color: white;
   }
 
 .web h1 {
-    background-color: yellowgreen;
+    
+    background-color:  #06063f;
     width: 300px;
+    font-size: 32px;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px white;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+   
 }
 
 
 
 .web button {
     padding: 20px;
-    background-color: yellowgreen;
-    box-shadow: 0px 0px 5px black;
+    background-color:  #06063f;;
     width: 300px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
 }
 
 
@@ -61,27 +77,38 @@
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: flex-start; /* Alinea los elementos a la izquierda */
-    box-shadow: 0px 0px 5px black;
+    color: white;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 20px;
+
+
   }
 
 
 .sitio h1 {
-    background-color: 	#87CEEB;
+    background-color:  #06063f;;
     width: 300px;
+    font-size: 32px;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 0px 0px 5px black;
+    color:  white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+   
 }
 
 
 .sitio button {
     padding: 20px;
-    background-color:  	#87CEEB;
+    background-color:  #06063f;;
     box-shadow: 0px 0px 5px black;
     width: 300px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
 }
 
 
@@ -89,27 +116,37 @@
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: flex-start; /* Alinea los elementos a la izquierda */
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 20px;
+    color: white;
+
   }
 
 
 .ecommerce h1 {
-    background-color:  #ee82ee;
+    background-color:  #06063f;;
+    padding: 20px;
     width: 300px;
     height: 70px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 0px 0px 5px black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+   
 }
 
 
 .ecommerce button {
     padding: 20px;
-    background-color:  #ee82ee;
-    box-shadow: 0px 0px 5px black;
+    background-color:  #06063f;;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
     width: 300px;
+    color: white;
 }
 
 .lista {
@@ -178,7 +215,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 100px;
+        margin-top: 600px;
         height: 700px;
         width: 100%;
     }
@@ -191,7 +228,6 @@
     .container h1 {
         width: 400px;
         margin-top: 50px;
-        padding: 10px;
     }
 
     .servicios {

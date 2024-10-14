@@ -6,7 +6,8 @@
     width: 100%;
     gap: 100px;
     margin-bottom: 250px;
-    margin-top: 50px;
+    margin-top: 200px;
+    color: white;
 }
 
 .contenido {
@@ -17,11 +18,11 @@
     margin: 0px 30px;
     height: 300px;
     margin-top: 90px;
+    color: white;
 
 }
 
 .content {
-    background-color: white;
     display: flex;
     width: 100%;
     height: 300px;
@@ -29,27 +30,31 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 100px;
     border-radius: 10px;
+    padding: 100px;
+    box-shadow: 0px 0px 15px white;
+    background-color: #06063f;
+ 
 }
 
 .svg {
    width: 30px;
    height: 30px;
    margin: 10px;
-   color: black;
-   box-shadow: 0px 0px 5px black;
+   color: white;
+   box-shadow: 0px 0px 5px white;
    border-radius: 50px;
 }
 
 .titulo {
     font-size: 30px;
     margin: 10px;
-    color: black;
+    color: white;
 }
 
 .parrafos {
-    color: black;
+    color: white;
     font-size: 15px;
     padding: 10px;
 }
@@ -74,14 +79,13 @@
     text-align: center;
     align-items: center;
     width: 100%;
-    height: 600px;
-    background-color:  #424242;
-    box-shadow: 0px 0px 10px black;
+    height: 600px; 
+    color:  black;
 }
 
 .estilo h1 {
     font-size: 50px;
-    color:  white;
+    color: white;
 }
 
 .note {
@@ -94,6 +98,7 @@
     justify-content: center;
     align-items: center;
     padding: 0px 30px;
+    color: black;
 }
 
 .web  h2 {
@@ -109,6 +114,7 @@
     padding: 10px;
     color: white;
     background: #06063f;
+    box-shadow: 0px 0px 10px white;
     margin-top: 60px;
 }
 
@@ -121,7 +127,8 @@
     .programas {
         display: flex;
         flex-direction: column;
-        margin-top: 650px;
+        margin-top: 800px;
+        margin-bottom: 0;
     }
 
     .web h1 {
@@ -132,22 +139,25 @@
         display: flex;
         flex-direction: column;
         height: 1200px;
-        background-color:  #424242;
+        background-color:   #000028;
     }
 
     .estilo h1 {
         padding-top: 50px;
     }
 
-    .imag {
-        margin: 100px 0px;
-    }
-
     .contenido {
         display: flex;
         flex-direction: column;
-        margin: 250px 0px 0px;
-    
+        margin-top: 400px;
+    }
+
+    .imag {
+        margin: 0;
+    }
+
+    .content {
+        padding: 20px;
     }
 
 }

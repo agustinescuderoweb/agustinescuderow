@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import Image from 'next/image'
 import bull from "../../../public/icon/bullseye.svg"
@@ -5,22 +7,31 @@ import rain from "../../../public/icon/rainbow.svg"
 import book from "../../../public/icon/bookmark-check.svg"
 import styles from "@/componentes/planes/programas.module.css"
 import note from "../../../public/note.png"
+import Animacion from "@/componentes/animaciones/animacion"
+import { motion } from "framer-motion";
+
 
 function planes() {
   return (
     <div className={styles.programas}>
       <div className={styles.estilo}>
-        <div className={styles.web}>
+        <motion.div className={styles.web} 
+         initial={{ y: -200, opacity: 0 }}
+         animate={{ y: 0, opacity: 1 }} 
+         transition={{ duration: 1, ease: "easeOut" }}> 
         <h1>Desarrolla tu web con un estilo moderno</h1>
         <h2>Muestra tus proyectos, tus habilidades y productos.</h2>
         <a href='https://wa.link/elp2e3'><button>Empieza ahora!</button></a>
-        </div>
-        <div className={styles.imag}>
-        <Image className={styles.note} src={note} alt="note"></Image>
-        </div>
+        </motion.div>
+        <motion.div className={styles.imag} 
+          initial={{ x: 300, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }} 
+          transition={{ duration: 1, ease: "easeOut" }} >
+        <Animacion />
+        </motion.div>
       </div>
       <div className={styles.contenido}>
-        <div className={styles.cardone}>
+        <div className={styles.cardone}> 
           <div className={styles.content}>
             <Image className={styles.svg} src={bull} alt="bull"></Image>
             <h1 className={styles.titulo}>Diseños Web Personalizados</h1>

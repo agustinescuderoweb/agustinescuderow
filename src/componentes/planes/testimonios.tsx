@@ -1,11 +1,22 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,  useRef } from 'react';
 import styles from '@/componentes/planes/testimonios.module.css'
 import camila from '../../../public/icon/camilaimg.jpg'
 import monica from '../../../public/icon/monicaimg.jpg'
+import { motion, useAnimation, useInView } from "framer-motion";
 import Image from 'next/image';
 
 const Testimonios = () => {
+  const controls = useAnimation(); 
+  const ref = useRef(null); 
+  const isInView = useInView(ref, { threshold: 0.3 }); 
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start("visible"); 
+    }
+  }, [isInView, controls]);
+
   const text = [ 
     { text: '"Realmente muy conforme, me creo mi tienda de ropa conforme a mis gustos y preferencia muy satisfecha"',
       name: 'CAMILA ESCUDERO',
@@ -26,14 +37,23 @@ const Testimonios = () => {
   }, [text.length]);
 
   return (
-    <div className={styles.testimonios}>
+    <motion.div 
+    className={styles.testimonios} 
+    ref={ref}
+    initial="hidden"
+    animate={controls}
+    variants={{
+      hidden: { y: -400, opacity: 0 }, 
+      visible: { y: 0, opacity: 1 }, 
+    }}
+    transition={{ duration: 0.8, ease: "easeOut" }}>
       <h1>Testimonios de Clientes</h1>
       <div className={styles.images}>
         <span className={styles.text}>{text[currentIndex].text}</span>
         <Image src={text[currentIndex].src} alt={text[currentIndex].text} className={styles.image} />
         <span className={styles.name}>{text[currentIndex].name}</span>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
