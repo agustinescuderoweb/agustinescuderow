@@ -3,19 +3,16 @@ import React, { useState, useEffect,  useRef } from 'react';
 import styles from '@/componentes/planes/testimonios.module.css'
 import camila from '../../../public/icon/camilaimg.jpg'
 import monica from '../../../public/icon/monicaimg.jpg'
-import { motion, useAnimation, useInView } from "framer-motion";
+import { motion } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
 
 const Testimonios = () => {
-  const controls = useAnimation(); 
-  const ref = useRef(null); 
-  const isInView = useInView(ref, { threshold: 0.3 }); 
 
-  useEffect(() => {
-    if (isInView) {
-      controls.start("visible"); 
-    }
-  }, [isInView, controls]);
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Solo dispara una vez cuando el elemento entra en vista
+    threshold: 0.3, // El umbral de visibilidad es el 30%
+  });
 
   const text = [ 
     { text: '"Realmente muy conforme, me creo mi tienda de ropa conforme a mis gustos y preferencia muy satisfecha"',
@@ -41,7 +38,7 @@ const Testimonios = () => {
     className={styles.testimonios} 
     ref={ref}
     initial="hidden"
-    animate={controls}
+    animate={inView ? "visible" : "hidden"} 
     variants={{
       hidden: { y: -400, opacity: 0 }, 
       visible: { y: 0, opacity: 1 }, 
