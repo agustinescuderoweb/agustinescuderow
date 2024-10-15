@@ -27,7 +27,7 @@ function planes() {
           initial={{ x: 300, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }} 
           transition={{ duration: 1, ease: "easeOut" }} >
-        <Animacion  className={styles.animacion}/>
+        <Animacion />
         </motion.div>
       </div>
       <div className={styles.contenido}>
