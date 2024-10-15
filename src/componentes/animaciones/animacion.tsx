@@ -4,7 +4,7 @@ import animationData from '../../../public/asset/web-design-layout.json'; // Ase
 
 const LottieAnimation = () => {
     return (
-    <div style={{ width: 600, height: 600 }}>
+    <div style={{ width: 500, height: 500 }}>
         <Lottie animationData={animationData} loop={true} />;
     </div>
     );

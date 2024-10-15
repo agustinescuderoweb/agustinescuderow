@@ -118,3 +118,18 @@
     margin-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 450px) { 
+  
+  .caroul {
+    height: 700px;
+    margin-top: 0px;
+  }
+  
+  .span {
+    padding: 0px 5px;
+    font-size: 30px;
+    margin: 0px;
+  }
+
+}

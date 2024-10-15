@@ -142,7 +142,7 @@
 
 .ecommerce button {
     padding: 20px;
-    background-color:  #06063f;;
+    background-color:  #06063f;
     border-radius: 10px;
     box-shadow: 0px 0px 3px black;
     width: 300px;
@@ -242,3 +242,26 @@
     }
   }
  
+  @media screen and (max-width: 450px) {
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+    }
+    .container h1 {
+        margin: 10px;
+        padding: 10px;
+    }
+}
