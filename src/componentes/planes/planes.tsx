@@ -6,20 +6,22 @@ import Image from 'next/image'
 import styles from '@/componentes/planes/planes.module.css'
 import x from '../../../public/icon/x-circle-fill.svg'
 import check from '../../../public/icon/check-circle-fill.svg'
-import { motion, useAnimation, useInView } from "framer-motion";
+import { motion } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
+
+
 
 function planes() {
-  const controls = useAnimation(); 
-  const ref = useRef(null); 
-  const isInView = useInView(ref, { threshold: 0.3 }); 
 
-  useEffect(() => {
-    if (isInView) {
-      controls.start("visible"); 
-    }
-  }, [isInView, controls]);
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Solo dispara una vez cuando el elemento entra en vista
+    threshold: 0.3, // El umbral de visibilidad es el 30%
+  });
+
 
   return (
+   
+  
     <div className={styles.contenedor}>
     <div className={styles.container}>
       <h1>Elige el Servicio que <span className={styles.marcado}>más se adapté a tu modelo de negocio</span></h1>
@@ -29,7 +31,7 @@ function planes() {
       <motion.div className={styles.web}
         ref={ref}
         initial="hidden"
-        animate={controls}
+        animate={inView ? "visible" : "hidden"} 
         variants={{
           hidden: { x: -300, opacity: 0 }, // Estado inicial: fuera de vista
           visible: { x: 0, opacity: 1 }, // Estado final: visible y centrado
@@ -99,7 +101,7 @@ function planes() {
         <motion.div className={styles.sitio}
          ref={ref}
          initial="hidden"
-         animate={controls}
+         animate={inView ? "visible" : "hidden"} 
          variants={{
            hidden: { y: -300, opacity: 0 }, // Estado inicial: fuera de vista
            visible: { y: 0, opacity: 1 }, // Estado final: visible y centrado
@@ -167,7 +169,7 @@ function planes() {
         <motion.div className={styles.ecommerce}
          ref={ref}
          initial="hidden"
-         animate={controls}
+         animate={inView ? "visible" : "hidden"} 
          variants={{
            hidden: { x: +300, opacity: 0 }, // Estado inicial: fuera de vista
            visible: { x: 0, opacity: 1 }, // Estado final: visible y centrado
