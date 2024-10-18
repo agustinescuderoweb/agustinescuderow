@@ -19,7 +19,7 @@ function planes() {
          initial={{ y: -200, opacity: 0 }}
          animate={{ y: 0, opacity: 1 }} 
          transition={{ duration: 1, ease: "easeOut" }}> 
-        <h1>Desarrolla tu web con un estilo moderno</h1>
+        <h1>Desarrolla tu presencia en linea</h1>
         <h2>Muestra tus proyectos, tus habilidades y productos.</h2>
         <a href='https://wa.link/elp2e3'><button>Empieza ahora!</button></a>
         </motion.div>
