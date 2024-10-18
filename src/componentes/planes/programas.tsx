@@ -50,7 +50,7 @@ function planes() {
         <div className={styles.cardthree}>
           <div className={styles.content}>
             <Image className={styles.svg} src={book} alt="book"></Image>
-            <h1 className={styles.titulo}>Marketing Digital y SEO</h1>
+            <h1 className={styles.titulo}>Marketing Digital</h1>
             <p className={styles.parrafos}>Diseños de web con atractivo e interes comercial</p>
              <a href='https://wa.link/elp2e3'><button className={styles.mas}>Más Info</button></a>
           </div>

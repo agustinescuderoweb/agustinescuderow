@@ -162,6 +162,16 @@
 
 }
 
+@media screen and (max-width: 1400px) {
+    .contenido {
+        display: flex;
+        gap: 20px;
+    }
+
+
+
+}
+
 @media screen and (max-width: 450px) {
     div.programas {
         display: flex;

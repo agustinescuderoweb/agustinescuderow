@@ -174,15 +174,16 @@
     margin-right: 10px; /* Espacio entre el ícono y el texto */
   }
   
- @media screen and (max-width: 1200px) {
+ @media screen and (max-width: 1400px) {
 
     .container {
         padding: 50px;
+        margin-bottom: 0px;
     }
 
     .servicios {
         width: 100%;
-        gap: 10px;
+        gap: 70px;
     }
 
     .landing h1 button{

@@ -15,7 +15,6 @@ function planes() {
 
   const { ref, inView } = useInView({
     triggerOnce: true, // Solo dispara una vez cuando el elemento entra en vista
-    threshold: 0.3, // El umbral de visibilidad es el 30%
   });
 
 
