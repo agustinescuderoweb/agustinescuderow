@@ -26,10 +26,11 @@
 .span {
   padding: 10px 20px;
   font-size: 80px;
-  color: white;
+  color: gray;
   margin-top: 200px;
   margin-bottom: 200px;
-  box-shadow: 0px 0px 10px white;
+  font-weight: 700;
+
 }
 
 .carousel {

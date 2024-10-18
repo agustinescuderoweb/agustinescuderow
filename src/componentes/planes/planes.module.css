@@ -14,15 +14,15 @@
 }
 
 .container h1 {
-    font-size: 55px;
+    font-size: 35px;
     color: white;
 }
 
 .marcado {
-    background-color:  white;
-    color:  black;
+    color:  gray;
     padding: 10px;
-    box-shadow: 0px 0px 10px white;
+    font-size: 55px;
+    font-weight: 600;
 }
 
 .servicios {
@@ -181,8 +181,8 @@
     }
 
     .servicios {
-        width: 90%;
-        gap: 1px;
+        width: 100%;
+        gap: 10px;
     }
 
     .landing h1 button{
