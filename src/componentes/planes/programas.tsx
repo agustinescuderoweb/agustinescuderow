@@ -21,7 +21,7 @@ function planes() {
          transition={{ duration: 1, ease: "easeOut" }}> 
         <h1>Desarrolla tu presencia en linea</h1>
         <h2>Muestra tus proyectos, tus habilidades y productos.</h2>
-        <a href='https://wa.link/elp2e3'><button>Empieza ahora!</button></a>
+        <a href='https://wa.link/elp2e3'><button className={styles.button}>Empieza ahora!</button></a>
         </motion.div>
         <motion.div className={styles.imag} 
           initial={{ x: 300, opacity: 0 }}

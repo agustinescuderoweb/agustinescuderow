@@ -38,10 +38,10 @@ const Form  = () => {
       </div>
       <form action="https://formspree.io/f/xanwnwrv"
   method="POST" className={styles.form} onSubmit={handleSubmit}>
-        <input name='name' type='text' placeholder='Escribe tu nombre'></input>
-        <input name='email' type='email' placeholder='Escribe tu email'></input>
-        <textarea name='content' placeholder='Escribe tu mensaje acá'></textarea>
-        <button>Enviar</button>
+        <input className={styles.name} name='name' type='text' placeholder='Escribe tu nombre'></input>
+        <input className={styles.email}  name='email' type='email' placeholder='Escribe tu email'></input>
+        <textarea className={styles.mensaje}  name='content' placeholder='Escribe tu mensaje acá'></textarea>
+        <button className={styles.button}>Enviar</button>
         <p className={styles.alert}>{message}</p>
       </form>
     </div>

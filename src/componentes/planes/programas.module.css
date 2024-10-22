@@ -113,20 +113,42 @@
     margin-top: 30px;
 }
 
-.web button {
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 10px;
-    color: white;
-    background: #06063f;
-    box-shadow: 0px 0px 10px white;
-    margin-top: 60px;
-}
 
-.web button:hover {
-    box-shadow: 0px 0px 10px  #06063f;
-}
+.button {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: green;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateX(-100%) rotate(45deg);
+    transition: transform 0.6s ease;
+  }
+  
+  .button:hover::before {
+    transform: translateX(100%) rotate(45deg);
+  }
+  
 
 @media screen and (max-width: 768px) {
 
