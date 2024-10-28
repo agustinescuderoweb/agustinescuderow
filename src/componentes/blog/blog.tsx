@@ -8,6 +8,7 @@ import dom from '../../../public/dom.jpg';
 import sitio from '../../../public/sitio.jpeg'
 import webtres from '../../../public/webtres.jpeg'
 import herramientas from '../../../public/herramientas.jpg'
+import html from '../../../public/html.webp'
 import style from '../blog/blog.module.css';
 
 const Blog = () => {
@@ -55,6 +56,13 @@ const Blog = () => {
           <Image className={style.caja} src={herramientas} alt="dom" />
           <h1>3 Herramientas para desarrollar tu web</h1>
           <h2>Herramientas | Lectura de 3 min</h2>
+          </a>
+      </div>
+      <div className={style.contenidos}>
+          <a href='../../blog/codigoh'>
+          <Image className={style.caja} src={html} alt="dom" />
+          <h1>Conceptos Básicos de HTML</h1>
+          <h2>Conceptos | Lectura de 3 min</h2>
           </a>
       </div>
       </div>

@@ -1,0 +1,36 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.titulo {
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.subtitulo {
+    font-size: 30px;
+    margin: 30px;
+    text-decoration: underline;
+}
+
+.parrafo {
+    font-size: 20px;
+    padding: 10px 400px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+.parrafo {
+    margin: none;
+    padding: 0px;
+}
+
+}
