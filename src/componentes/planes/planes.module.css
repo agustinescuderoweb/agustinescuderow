@@ -31,8 +31,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 250px;
-    margin-top: 200px;
+    gap: 100px;
+    margin-top: 40px;
 }
 
 .web {
@@ -206,18 +206,14 @@
 
   @media  screen and (max-width: 768px) {
 
-    .contenedor {
-        margin-top: 200px;
-    }
-
 
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 600px;
-        height: 700px;
+        margin-top: 550px;
+        height: 300px;
         width: 100%;
     }
 
@@ -229,6 +225,10 @@
     .container h1 {
         width: 400px;
         margin-top: 50px;
+        font-size: 24px;
+    }
+    .container span {
+        font-size: 16px;
     }
 
     .servicios {
@@ -236,9 +236,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
         width: 100%;
-        gap: 20px;
+        gap: 30px;
 
     }
   }

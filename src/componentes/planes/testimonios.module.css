@@ -1,20 +1,31 @@
 .testimonios {
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-color: #000028;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 32px;
     color: white;
 }
 
 .testimonios h1 {
-    font-size: 70px;
-    margin-top: 100px;
-    color: grey;
+    font-size: 26px;
+    color: white;
     font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.target {
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0px 0px 5px white;
 }
 
 .images {
@@ -27,17 +38,22 @@
 }
 
 .text {
+    font-size: 16px;
     width: 300px;
     text-align: center;
-    color: white;
+    color: gray;
 }
 
+.name {
+    font-size: 16px;
+}
 
 .image {
     margin: 30px;
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    box-shadow: 0px 0px 5px white;
 }
 
 @media screen and (max-width: 768px) {
@@ -48,10 +64,21 @@
         align-items: center;
         text-align: center;
         width: 100%;
+        margin-top: 100px;
     }
 
     .testimonios h1 {
-        font-size: 50px;
+        font-size: 24px;
 
+    }
+
+    .text {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .target {
+        width: 80%;
+        margin: 30px;
     }
 }

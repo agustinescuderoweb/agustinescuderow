@@ -23,12 +23,6 @@ function planes() {
         <h2>Muestra tus proyectos, tus habilidades y productos.</h2>
         <a href='https://wa.link/elp2e3'><button className={styles.button}>Empieza ahora!</button></a>
         </motion.div>
-        <motion.div className={styles.imag} 
-          initial={{ x: 300, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }} 
-          transition={{ duration: 1, ease: "easeOut" }} >
-        <Animacion />
-        </motion.div>
       </div>
       <div className={styles.contenido}>
         <div className={styles.cardone}> 
@@ -51,7 +45,7 @@ function planes() {
           <div className={styles.content}>
             <Image className={styles.svg} src={book} alt="book"></Image>
             <h1 className={styles.titulo}>Marketing Digital</h1>
-            <p className={styles.parrafos}>Diseños de web con atractivo e interes comercial</p>
+            <p className={styles.parrafos}>Diseños de web con atractivo e interel comercial adaptable</p>
              <a href='https://wa.link/elp2e3'><button className={styles.mas}>Más Info</button></a>
           </div>
         </div>

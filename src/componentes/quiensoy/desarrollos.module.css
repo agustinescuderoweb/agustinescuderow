@@ -9,7 +9,7 @@
 }
 
 .misdesarrollos {
-    font-size: 100px;
+    font-size: 36px;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -30,7 +30,7 @@
     justify-content: space-between;
     border: 1px solid black;
     margin: 20px;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px white;
     border-radius: 10px;
 }
 
@@ -56,7 +56,7 @@
     }
 
     .misdesarrollos {
-        font-size: 50px;
+        font-size: 36px;
     }
 
     .contenedor {

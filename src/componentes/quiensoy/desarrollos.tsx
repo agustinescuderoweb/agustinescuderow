@@ -9,6 +9,7 @@ import magia from '../../../public/magia.jpg'
 import cultura from '../../../public/cultura.jpg'
 import glow from '../../../public/glow.jpg'
 import huellas from '../../../public/montaña.jpg'
+import ferrari from '../../../public/ferrari.jpg'
 
 
 function desarrollos() {
@@ -28,6 +29,7 @@ function desarrollos() {
         <div className={styles.contenedor}>
            <a href='https://glowtienda.netlify.app'><div className={styles.card}><Image className={styles.imag} src={glow} alt="glow"></Image><h1>GloW Tienda</h1></div></a>
           <a href='https://www.huellasandinasmountainshop.com.ar/'><div className={styles.card}><Image className={styles.imag} src={huellas} alt="huellas"></Image><h1>Huellas Andinas</h1></div></a>
+          <a href='https://ferrari7.netlify.app/'><div className={styles.card}><Image className={styles.imag} src={ferrari} alt="ferrari"></Image><h1>Ferrari</h1></div></a>
         </div>
     </div>
   )

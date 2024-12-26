@@ -7,6 +7,9 @@
 
 
 body {
+    max-width: 1260px; /* Ajusta este valor según el ancho máximo deseado */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 0 20px; 
     font-family: "Assistant", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;

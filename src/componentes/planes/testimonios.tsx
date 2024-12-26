@@ -44,11 +44,13 @@ const Testimonios = () => {
       visible: { y: 0, opacity: 1 }, 
     }}
     transition={{ duration: 0.8, ease: "easeOut" }}>
+      <div className={styles.target}>
       <h1>Testimonios de Clientes</h1>
       <div className={styles.images}>
         <span className={styles.text}>{text[currentIndex].text}</span>
         <Image src={text[currentIndex].src} alt={text[currentIndex].text} className={styles.image} />
         <span className={styles.name}>{text[currentIndex].name}</span>
+      </div>
       </div>
     </motion.div>
   );

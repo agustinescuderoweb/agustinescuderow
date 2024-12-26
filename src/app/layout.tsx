@@ -36,7 +36,7 @@ export default function RootLayout({
            
         </Script>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}><div className="page-container">{children}</div></body>
     </html>
   );
 }

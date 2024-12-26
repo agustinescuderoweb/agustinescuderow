@@ -58,6 +58,8 @@ const Blog = () => {
           <h2>Herramientas | Lectura de 3 min</h2>
           </a>
       </div>
+      </div>
+      <div className={style.rowone}>
       <div className={style.contenidos}>
           <a href='../../blog/codigoh'>
           <Image className={style.caja} src={html} alt="dom" />

@@ -1,6 +1,5 @@
 .contenedor {
     width: 100%;
-    background-color:  #06063f;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -19,15 +18,15 @@
 }
 
 .contenido h1 {
-    font-size: 50px;
+    font-size: 36px;
 }
 
 .contenido h2 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .contenido h3 {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -81,4 +80,22 @@
         width: 100%;
         padding: 20px;
     }
+
+    .contenido h1 {
+        font-size: 36px;
+    }
+
+    .contenido h2 {
+        font-size: 22px;
+    }
+    
+    .contenidoh3 {
+        font-size: 13px;
+    }
+
+    .imagenes {
+        width: 100%;
+        height: 245px;
+    }
+
 }

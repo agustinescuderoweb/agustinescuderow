@@ -53,7 +53,7 @@ const Carousel = () => {
       </div>
       <div className={styles.link}>
       <Link href={images[currentIndex].link} target="_blank" rel="noopener noreferrer">
-          <button className={styles.botton}>Ir a la Web</button>
+          <button className={styles.button}>Ir a la Web</button>
         </Link>
       </div>
     </div>

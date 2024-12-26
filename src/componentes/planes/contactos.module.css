@@ -11,11 +11,11 @@
 }
 
 .contactos h1 {
-    font-size: 50px;
+    font-size: 26px;
 }
 
 .contactos h2 {
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .icon {
@@ -35,6 +35,10 @@
         width: 400px;
         padding: 100px 0px;
 
+    }
+
+    .contacto h1 {
+        font-size: 24px;
     }
     
 }

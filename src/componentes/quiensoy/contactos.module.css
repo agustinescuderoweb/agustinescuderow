@@ -6,18 +6,18 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: #000028;
     color: white;
 
 }
 
 .contactos h1 {
-    font-size: 50px;
-    color: gray;
+    font-size: 26px;
+    color: white;
 }
 
 .contactos h2 {
-    font-size: 30px;
+    font-size: 16px;
+    color: white;
 }
 
 .icon {
@@ -25,13 +25,13 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
-    color: white;
+    color: black;
 }
 
 .icons {
     width: 25px;
     margin: 10px;
-    color: white;
+    color: black;
 }
 
 
@@ -41,5 +41,14 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: 0;
+    }
+
+    .contactos h1 {
+        font-size: 24px;
+    }
+
+    .contactos h2 {
+        font-size: 16px;
     }
 }
