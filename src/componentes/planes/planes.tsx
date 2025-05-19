@@ -27,16 +27,8 @@ function planes() {
     </div>
     <div className={styles.servicios}>
 
-      <motion.div className={styles.web}
-        ref={ref}
-        initial="hidden"
-        animate={inView ? "visible" : "hidden"} 
-        variants={{
-          hidden: { x: -300, opacity: 0 }, // Estado inicial: fuera de vista
-          visible: { x: 0, opacity: 1 }, // Estado final: visible y centrado
-        }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-      >
+      <div className={styles.web} >
+        
             <h1>Página Web</h1>
              
       <div className={styles.item}>
@@ -93,19 +85,11 @@ function planes() {
           <div className={styles.boton}>
           <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
           </div>
-        </motion.div>
+        </div>
 
 
 
-        <motion.div className={styles.sitio}
-         ref={ref}
-         initial="hidden"
-         animate={inView ? "visible" : "hidden"} 
-         variants={{
-           hidden: { y: -300, opacity: 0 }, // Estado inicial: fuera de vista
-           visible: { y: 0, opacity: 1 }, // Estado final: visible y centrado
-         }}
-         transition={{ duration: 0.8, ease: "easeOut" }}> 
+        <div className={styles.sitio} >
             <h1>Sitio Web</h1>
            
                
@@ -163,17 +147,10 @@ function planes() {
         <div className={styles.boton}>
         <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
         </div>
-        </motion.div>
+        </div>
         
-        <motion.div className={styles.ecommerce}
-         ref={ref}
-         initial="hidden"
-         animate={inView ? "visible" : "hidden"} 
-         variants={{
-           hidden: { x: +300, opacity: 0 }, // Estado inicial: fuera de vista
-           visible: { x: 0, opacity: 1 }, // Estado final: visible y centrado
-         }}
-         transition={{ duration: 0.8, ease: "easeOut" }}> 
+        <div className={styles.ecommerce} >
+        
             <h1>E-Commerce/Comercio Electrónico</h1>
            
                
@@ -231,9 +208,10 @@ function planes() {
         <div className={styles.boton}>
         <a href='https://wa.link/elp2e3'><button>+ Más Info</button></a>
         </div>
-        </motion.div>
         </div>
         </div>
+        </div>
+        
   )
 }
 

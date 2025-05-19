@@ -1,84 +1,122 @@
-.testimonios {
-    width: 100%;
-    height: 700px;
-    background-color: #000028;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 32px;
+.contenedor {
+    background:radial-gradient(circle at 50% 5%, rgba(255, 251, 251, 0.325), transparent 35%),
+    linear-gradient(45deg, #000028);
+    background-size: 100%;
+    animation: glow 6s ease-in-out infinite;
+    height: 800px;
     color: white;
-}
-
-.testimonios h1 {
-    font-size: 26px;
-    color: white;
-    font-weight: 700;
-    margin-bottom: 50px;
-}
-
-.target {
-    border: 1px solid white;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px;
-    box-shadow: 0px 0px 5px white;
-}
-
-.images {
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
-    padding: 15px;
-}
-
-.text {
-    font-size: 16px;
-    width: 300px;
+    padding: 2rem;
+    margin: auto;
     text-align: center;
-    color: gray;
 }
 
-.name {
-    font-size: 16px;
+.contenedor {
+  text-align: center;
+  padding: 2rem;
 }
 
-.image {
-    margin: 30px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px white;
+.testimonio {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 70px;
+}
+
+.items {
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 600px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  background-color: #06063f;
+  box-shadow: 0px 0px 5px white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.texto {
+  font-size: 34;
+  padding: 0px 40px;
+  margin-bottom: 1rem;
+}
+
+.nombre {
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 1rem;
+}
+
+.imagen {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.botones button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    .testimonios {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        background:radial-gradient(circle at 50% 5%, rgba(255, 251, 251, 0.325), transparent 15%),
+        linear-gradient(45deg,  #000028);
+        background-size: 100%;
+       
+    }
+
+    .contenido {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        width: 100%;
-        margin-top: 100px;
-    }
-
-    .testimonios h1 {
-        font-size: 24px;
+        margin-bottom: 200px;
 
     }
 
-    .text {
-        font-size: 16px;
-        padding: 15px;
-    }
-
-    .target {
-        width: 80%;
-        margin: 30px;
+    .testimonio {
+        color: white;
     }
 }

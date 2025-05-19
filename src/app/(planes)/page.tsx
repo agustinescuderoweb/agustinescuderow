@@ -1,7 +1,7 @@
 import Menu from "@/componentes/planes/menu";
 import Programas from "@/componentes/planes/programas";
 import Planes from "@/componentes/planes/planes";
-import Carousel from "@/componentes/planes/carousel";
+import Carousel from "@/componentes/planes/carrusel";
 import Testimonios from "@/componentes/planes/testimonios";
 import Contactos from "@/componentes/quiensoy/contactos";
 
