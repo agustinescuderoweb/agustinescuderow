@@ -15,6 +15,7 @@
     font-size: 36px;
     margin-bottom: 100px;
     margin-top: 100px;
+    font-weight: 800;
 
 }
 
@@ -75,5 +76,12 @@
     .rowone {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .contenidos { 
+        width: 330px;
     }
 }

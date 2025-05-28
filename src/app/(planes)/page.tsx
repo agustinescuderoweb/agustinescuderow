@@ -1,10 +1,12 @@
 import Menu from "@/componentes/planes/menu";
 import Header from "@/componentes/planes/header";
 import Programas from "@/componentes/planes/programas";
+import Landing from "@/componentes/planes/landing";
 import Carousel from "@/componentes/planes/carrusel";
 import Testimonios from "@/componentes/planes/testimonios";
 import Contactos from "@/componentes/quiensoy/contactos";
 import Beneficios from "@/componentes/planes/beneficios";
+
 
 
 import React from 'react'
@@ -15,6 +17,7 @@ function page() {
         <Menu />
         <Header />
         <Programas />
+        <Landing />
         <Carousel />
         <Beneficios />
         <Testimonios />

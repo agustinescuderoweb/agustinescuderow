@@ -226,13 +226,13 @@ color: white;
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
        .programas {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 225vh;
+        height: 200vh;
     }
 
 }

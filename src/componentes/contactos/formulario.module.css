@@ -17,6 +17,7 @@
 .correo h1 {
     font-size: 50px;
     margin-bottom: 20px;
+    font-weight: 800;
 }
 
 .correo h2 {
@@ -109,5 +110,12 @@
     .correo {
         width: 100%;
         padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 550px) { 
+
+    .form { 
+        width: 330px;
     }
 }

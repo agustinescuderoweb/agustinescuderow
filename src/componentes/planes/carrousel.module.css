@@ -5,7 +5,7 @@
   align-items: center;
   background:radial-gradient(circle at 50% 50%, rgba(255, 251, 251, 0.925), transparent 35%);
   margin: auto;
-  height: 1200px;
+  height: 800px;
  
 }
 
@@ -25,9 +25,9 @@
 }
 
 .span {
-  font-size: 26px;
+  font-size: 34px;
   color: white;
-  font-weight: 700;
+  font-weight: 800;
 
 }
 
@@ -146,12 +146,12 @@
 @media screen and (max-width: 550px) { 
   
   .caroul {
-    height: 700px;
+    height: 600px;
   }
   
   .span {
     padding: 0px 5px;
-    font-size: 24px;
+    font-size: 34px;
     margin: 0px;
   }
 

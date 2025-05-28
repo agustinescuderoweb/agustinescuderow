@@ -42,3 +42,14 @@
     }
     
 }
+
+@media screen and (max-width: 550px) {
+    .contacto {
+         height: 300px;
+    }
+
+    
+    .contactos h1 {
+        font-weight: 800;
+    }
+}

@@ -120,3 +120,19 @@
         color: white;
     }
 }
+
+@media screen and (max-width: 550px) {
+
+    .contenedor {
+      padding: 0;
+      height: 700px;
+     }
+
+    
+      .testimonio {
+        color: white;
+        font-weight: 800;
+    }
+
+
+}
