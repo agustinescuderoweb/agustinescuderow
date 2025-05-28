@@ -1,0 +1,166 @@
+.espacio{
+  background: radial-gradient(circle at 75% 45%, rgba(255, 251, 251, 0.925), transparent 20%);
+  background-size: 100%;
+  animation: glow 6s ease-in-out infinite;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 150px;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 150px;
+}
+
+.text {
+  margin-top: 70px;
+}
+
+.contenedor h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contenedor h2 {
+    font-size: 26px;
+    margin-bottom: 22px;
+}
+
+
+
+.button {
+    position: relative;
+    background: rgb(50, 205, 50);
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.93);
+    transform: rotate(-45deg);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .button:hover::before {
+    left: 100%;
+    opacity: 1; /* Aparece el flash */
+  }
+  
+  .buttonbutton:hover {
+    transform: scale(0.5); /* Amplía ligeramente el botón */
+  }
+  
+
+.contenedor h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .espacio {
+    display: flex;
+    flex-direction: column;
+    height: 115vh;
+    justify-content: center;
+    background: radial-gradient(circle at 50% 75%, rgba(255, 251, 251, 0.925), transparent 20%);
+    background-size: 100%;
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+
+  .contenido {
+  display: flex;
+  flex-direction: column;
+  margin-top: none;
+  }
+
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.logo {
+  margin: 0px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px black;
+}
+  
+
+  .text {
+    padding: 30px;
+  }
+
+  .text h1 {
+    font-size: 26px;
+  }
+
+  .text h2 {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 10px;
+  }
+
+  .imagen {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .espacio {
+    margin: 0;
+  }
+
+  .contenido {
+    margin-top: 0;
+  }
+
+
+}

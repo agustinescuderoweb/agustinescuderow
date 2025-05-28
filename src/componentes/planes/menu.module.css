@@ -62,7 +62,6 @@
     }
 
     .items {
-        margin-top: 100px;
         height: 100%;
     }
 
@@ -97,7 +96,7 @@
         padding: 30px;
         width: 100%;
         text-align: center;
-        background-color: #000028;
+        background: linear-gradient(45deg, #001F54, #02235c);
     }
     
   }

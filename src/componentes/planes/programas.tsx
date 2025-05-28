@@ -6,24 +6,11 @@ import bull from "../../../public/icon/bullseye.svg"
 import rain from "../../../public/icon/rainbow.svg"
 import book from "../../../public/icon/bookmark-check.svg"
 import styles from "@/componentes/planes/programas.module.css"
-import note from "../../../public/note.png"
-import Animacion from "@/componentes/animaciones/animacion"
-import { motion } from "framer-motion";
 
 
 function planes() {
   return (
     <div className={styles.programas}>
-      <div className={styles.estilo}>
-        <motion.div className={styles.web} 
-         initial={{ y: -200, opacity: 0 }}
-         animate={{ y: 0, opacity: 1 }} 
-         transition={{ duration: 1, ease: "easeOut" }}> 
-        <h1>Desarrolla tu presencia en linea</h1>
-        <h2>Muestra tus proyectos, tus habilidades y productos.</h2>
-        <a href='https://wa.link/elp2e3'><button className={styles.button}>Empieza ahora!</button></a>
-        </motion.div>
-      </div>
       <div className={styles.contenido}>
         <div className={styles.cardone}> 
           <div className={styles.content}>
@@ -45,7 +32,7 @@ function planes() {
           <div className={styles.content}>
             <Image className={styles.svg} src={book} alt="book"></Image>
             <h1 className={styles.titulo}>Marketing Digital</h1>
-            <p className={styles.parrafos}>Diseños de web con atractivo e interel comercial adaptable</p>
+            <p className={styles.parrafos}>Diseños de web con atractivo e interes comercial adaptable</p>
              <a href='https://wa.link/elp2e3'><button className={styles.mas}>Más Info</button></a>
           </div>
         </div>

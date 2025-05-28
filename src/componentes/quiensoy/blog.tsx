@@ -10,9 +10,7 @@ function blog() {
         <a href='../../blog/desarrollo'><h1>Desarrollo Web con Código vs Wordpress</h1></a>
         <a href='../../blog/dominio'><h1>¿Qué es un Dominio y un Hosting?</h1></a>
         </div>
-        <div className={styles.boton}>
-        <a href='../../blog'><button>Ver Más Articulos</button></a>
-        </div>    
+        <button className={styles.button}><a href='../../blog'>Ver Más Articulos</a></button>     
     </div>
   )
 }

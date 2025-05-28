@@ -1,6 +1,5 @@
 .contenedor {
     width: 100%;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,20 +60,43 @@
     opacity: 0;
 }
 
-.masproyectos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 80px;
-    background-color: white;
-    border-radius: 20px;
-    color: black;
-    border: 1px solid black;
-    box-shadow: 0px 0px 3px black;
-    margin-bottom: 30px;
-}
-
+.button {
+    position: relative;
+    background: rgb(50, 205, 50);
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.93);
+    transform: rotate(-45deg);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .button:hover::before {
+    left: 100%;
+    opacity: 1; /* Aparece el flash */
+  }
+  
+  .buttonbutton:hover {
+    transform: scale(0.5); /* Amplía ligeramente el botón */
+  }
+  
 @media screen and (max-width: 768px) {
     .contenedor  {
         width: 100%;

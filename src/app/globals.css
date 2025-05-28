@@ -14,6 +14,6 @@ body {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color: #000028;
+    background: linear-gradient(45deg, #001F54, #02235c);
     color: white;
 }

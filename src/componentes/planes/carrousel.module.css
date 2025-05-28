@@ -3,8 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:radial-gradient(circle at 50% 50%, rgba(255, 251, 251, 0.925), transparent 35%),
-    linear-gradient(45deg, #000028);
+  background:radial-gradient(circle at 50% 50%, rgba(255, 251, 251, 0.925), transparent 35%);
   margin: auto;
   height: 1200px;
  
@@ -116,6 +115,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    height: 500px;
   }
 
   .carousel {
@@ -143,11 +143,10 @@
   }
 }
 
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 550px) { 
   
   .caroul {
-    height: 800px;
-    padding-bottom: 50px;
+    height: 700px;
   }
   
   .span {
