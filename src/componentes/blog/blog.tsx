@@ -70,7 +70,7 @@ const Blog = () => {
       </div>
       <div className={style.contenidos}>
           <a href='../../blog/bloginfo'>
-          <Image className={style.caja} src={bloginfo} alt="dom" />
+          <Image className={style.caja} src={bloginfo} alt="blog" />
           <h1>¿Para qué sirve un blog?</h1>
           <h2>Información | Lectura de 3 min</h2>
           </a>

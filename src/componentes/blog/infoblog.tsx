@@ -40,7 +40,7 @@ const BlogUso: React.FC = () => {
       <h1 className={styles.title}>
         ¿Para qué sirve un blog y quién debería tener uno?
       </h1>
-      <Image src={infoblog}></Image>
+      <Image src={infoblog} alt='blog'></Image>
       {BlogInfo.map((section, index) => {
         const lines = section.description.split('\n');
         const listItems = lines.filter(line => line.trim().startsWith('-'));
