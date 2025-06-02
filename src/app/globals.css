@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Assistant:wght@200..800&display=swap');
-
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +8,6 @@ body {
     max-width: 1260px; /* Ajusta este valor según el ancho máximo deseado */
     margin: 0 auto; /* Centra el contenedor en la página */
     padding: 0 20px; 
-    font-family: "Assistant", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
