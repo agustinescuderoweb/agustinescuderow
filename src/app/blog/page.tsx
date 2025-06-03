@@ -1,27 +1,21 @@
-import React from 'react'
-import Head from 'next/head'
-import Menu from '../../componentes/planes/menu'
-import Blog from '../../componentes/blog/blog'
-import Redes from '../../componentes/contactos/redes'
+import React from 'react';
+import Menu from '../../componentes/planes/menu';
+import Blog from '../../componentes/blog/blog';
+import Redes from '../../componentes/contactos/redes';
+
+export const metadata = {
+  title: 'Blog de Agustín Escudero | Desarrollo Web y Más',
+  description: 'Descubre artículos, tutoriales y consejos sobre desarrollo web, SEO, diseño y más en el blog de Agustín Escudero.',
+};
 
 function BlogPage() {
   return (
     <>
-      <Head>
-        <title>Blog de Desarrollo Web | Tips y Tutoriales por Agustín Escudero</title>
-        <meta
-          name="description"
-          content="Descubre los mejores consejos, tutoriales y novedades sobre desarrollo web. Aprende a crear sitios profesionales y optimizados con Agustín Scudero."
-        />
-      </Head>
-
-      <div>
-        <Menu />
-        <Blog />
-        <Redes />
-      </div>
+      <Menu />
+      <Blog />
+      <Redes />
     </>
-  )
+  );
 }
 
-export default BlogPage
+export default BlogPage;
