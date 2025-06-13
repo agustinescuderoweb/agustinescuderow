@@ -3,12 +3,9 @@ import Image from 'next/image'
 import styles from '@/componentes/quiensoy/desarrollos.module.css'
 import pintura from '../../../public/pintura.jpg'
 import maquillaje from '../../../public/maquillaje.webp'
-import antenas from '../../../public/antenas.jpg'
 import pc from '../../../public/pc.jpg'
 import magia from '../../../public/magia.jpg'
-import cultura from '../../../public/cultura.jpg'
-import glow from '../../../public/glow.jpg'
-import huellas from '../../../public/montaña.jpg'
+import turismo from '../../../public/turismo.jpg'
 import ferrari from '../../../public/ferrari.jpg'
 
 
@@ -25,7 +22,7 @@ function desarrollos() {
             <a href='https://agustinmagia.netlify.app'><div className={styles.card}><Image className={styles.imag} src={magia} alt="magia"></Image><h1>Agustin Magia</h1></div></a>
         </div>
         <div className={styles.contenedor}>
-           <a href='http://www.rytel.net/'><div className={styles.card}><Image className={styles.imag} src={antenas} alt="antenas"></Image><h1>Rytel</h1></div></a>
+           <a href='https://turismoa.netlify.app/'><div className={styles.card}><Image className={styles.imag} src={turismo} alt="turismo"></Image><h1>Turismo Aventura</h1></div></a>
            <a href='https://ferrari7.netlify.app/'><div className={styles.card}><Image className={styles.imag} src={ferrari} alt="ferrari"></Image><h1>Ferrari</h1></div></a>
         </div>
     </div>
