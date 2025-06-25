@@ -7,6 +7,7 @@ import pc from '../../../public/pc.jpg'
 import magia from '../../../public/magia.jpg'
 import turismo from '../../../public/turismo.jpg'
 import ferrari from '../../../public/ferrari.jpg'
+import meraki from '../../../public/meraki.jpg'
 
 
 function desarrollos() {
@@ -24,6 +25,9 @@ function desarrollos() {
         <div className={styles.contenedor}>
            <a href='https://turismoa.netlify.app/'><div className={styles.card}><Image className={styles.imag} src={turismo} alt="turismo"></Image><h1>Turismo Aventura</h1></div></a>
            <a href='https://ferrari7.netlify.app/'><div className={styles.card}><Image className={styles.imag} src={ferrari} alt="ferrari"></Image><h1>Ferrari</h1></div></a>
+        </div>
+        <div className={styles.contenedor}>
+           <a href='https://merakiarteinsumo.com/'><div className={styles.card}><Image className={styles.imag} src={meraki} alt="meraki"></Image><h1>Ecommerce - Arte</h1></div></a>
         </div>
     </div>
   )
