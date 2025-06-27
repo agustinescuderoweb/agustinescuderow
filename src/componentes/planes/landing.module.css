@@ -1,5 +1,4 @@
 .contenido {
-    background: linear-gradient(45deg, #001F54, #02235c);
     background-size: 100%;
     animation: glow 6s ease-in-out infinite;
     height: 100vh;
