@@ -9,6 +9,8 @@
 }
 
 .titulo {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
     font-size: 34px;
     color: white;
     margin-top: 100px;
@@ -58,6 +60,7 @@
 }
 
 .textos {
+    font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: start;

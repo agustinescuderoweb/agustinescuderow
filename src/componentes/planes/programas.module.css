@@ -136,6 +136,7 @@ color: white;
 }
 
 .titulo {
+    font-family: "Kanit", sans-serif;
     font-size: 22px;
     margin: 10px;
     color: white;
@@ -143,12 +144,14 @@ color: white;
 }
 
 .parrafos {
+    font-family: "Open Sans", sans-serif;
     color: gray;
     font-size: 16px;
     padding: 10px;
 }
 
 .mas {
+    font-family: "Open Sans", sans-serif;
     color: white;
     background-color:  rgb(50, 205, 50);
     width: 150px;

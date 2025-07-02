@@ -25,6 +25,8 @@
 }
 
 .span {
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
   font-size: 34px;
   color: white;
   font-weight: 800;
@@ -46,12 +48,12 @@
 }
 
 .imagText {
+  font-family: "Open Sans", sans-serif;
   display: flex;
   font-size: 16px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px;
 }
 
 .link {
@@ -59,9 +61,10 @@
 }
 
 .button {
+    font-family: "Open Sans", sans-serif;
     position: relative;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 10px 20px;
     font-size: 14px;
     color: white;
@@ -100,6 +103,7 @@
 }
 
 .navButton {
+    margin: 0;
     font-size: 100px;
     
 }
@@ -161,6 +165,7 @@
 
   .button {
     font-size: 14px;
+    margin-top: 15px;
   }
 
 }

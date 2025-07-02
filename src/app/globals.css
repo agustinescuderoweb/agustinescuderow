@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -5,12 +8,11 @@
 
 
 body {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
     max-width: 1260px; /* Ajusta este valor según el ancho máximo deseado */
     margin: 0 auto; /* Centra el contenedor en la página */
     padding: 0 20px; 
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
     background: linear-gradient(45deg, #001F54, #02235c);
     color: white;
 }

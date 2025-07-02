@@ -18,12 +18,15 @@
 }
 
 .guia h1 {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
     font-size: 32px;
     margin-bottom: 20px;
     font-weight: 800;
 }
 
 .guia h2 {
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     margin-bottom: 12px;
     font-weight: 400;
@@ -71,6 +74,7 @@
   }
 
 .web {
+    font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: flex-start; /* Alinea los elementos a la izquierda */
@@ -106,6 +110,7 @@
 
 
 .web button {
+    font-family: "Open Sans", sans-serif;
     padding: 20px;
     background-color:  #06063f;;
     width: 300px;
@@ -120,6 +125,11 @@
     flex-direction: row; 
     padding: 14px 30px;
   }
+
+.item span {
+    font-family: "Open Sans", sans-serif;
+
+}
   
   .check {
     width: 24px; /* Ajusta el ancho de la imagen según sea necesario */
